@@ -10,7 +10,7 @@ const {data, loading, refetch} = useAxiosGet({endpoint: 'your/api/endpoint/here'
 
 * `useAxiosPost` which can be used as below for `POST` requests:
 ```jsx
-const [sendRequest, {data, loading}] = useAxiosGet({endpoint: 'your/api/endpoint/here', headers: {'header-name': 'header-value'}});
+const [sendRequest, {data, loading}] = useAxiosPost({endpoint: 'your/api/endpoint/here', headers: {'header-name': 'header-value'}});
 ...
 sendRequest(body);
 ```
